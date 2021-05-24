@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>hirain_data_visualization_V0.0</title>
+    <script src="static/js/library/d3.min.js"></script>
+    <script src="static/js/library/d3-tip.js"></script>
+    
+    <link rel="stylesheet" href="static/css/d3tip.css">
+
+    <link rel="stylesheet" href="static/css/style.css" media="screen" type="text/css" />
+    
+  </head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta charset="utf-8"/>
+  <body>
+    <!-- 放置图例标签的svg -->
+    <svg width="2050" height="80" id="lengendsvg" class="svgs" style="background-color: #ffffff;"></svg>
+    <!-- 画图的svg -->
+    <svg width="2050" height="900" id="mainsvg" class="svgs" style="background-color: #ffffff;"></svg>
+    <!-- 四个按钮 -->
+    <button  class="btn" type="button" onclick="LastDay()" style="POSITION: absolute;top: 550px;left:1600px">上一时间段</button>
+    <button  class="btn" type="button" onclick="NextDay()" style="POSITION: absolute;top: 650px;left:1600px">下一时间段</button>
+    <button id="LastBtn" class="btn" type="button" onclick="LastBtn()" style="POSITION: absolute;top: 550px;left:1800px">上一次启动</button>
+    <button id="NextBtn" class="btn" type="button" onclick="NextBtn()" style="POSITION: absolute;top: 650px;left:1800px">下一次启动</button>
+    <button id="RestartBtn" class="btn" type="button" onclick="RestartBtn()" style="POSITION: absolute;top: 750px;left:1600px">复位</button>
+    <button id="GoBtn" class="btn_01" type="submit" onclick="GoBtn()" style="POSITION: absolute;top: 870px;left:1600px">转到</button>
+    <form action="#" method="get" name="form1" id="form1" style="POSITION: absolute;top: 875px;left:1750px">
+      <!--转到-->
+      第 <input type="number" id="myNumber" value="1" maxlength="3" style="width: 50px; height: 20px;"/> 次启动
+    </form>
+    <script src="static/js/index.js"></script>
+    <script>
+    </script>
+  </body>
+</html>

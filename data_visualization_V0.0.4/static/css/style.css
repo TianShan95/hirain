@@ -1,0 +1,57 @@
+.btn{
+    width:100px;
+    height:50px;
+    }
+
+.btn_01{
+    width:100px;
+    height:30px;
+    }
+
+.tick text{
+    transform: rotate(20);
+    font-size:1.5em;
+}
+
+/* #x{
+    transform: ; */
+    /* font-size:2.5em; */
+/* } */
+#y_01{
+    color: green;
+}
+
+#y_02{
+    color: red;
+}
+
+#y_03{
+    color: purple;
+}
+    
+.build_info {
+    line-height: 3;
+    font-weight: bold;
+    padding: 4px;
+    background: rgba(228, 21, 21, 0.8);
+    color: rgb(241, 28, 28);
+    border-radius: 5px;
+    pointer-events: none;
+    width: 20;
+    text-align:center;
+    font-family: 'Courier New'
+  }
+    /* .datacurve_01 {
+        fill: none;
+        stroke-width: 1.5px;
+    }
+
+    .datacurve_02 {
+        fill: none;
+        stroke-width: 1.5px;
+    }
+
+    .datacurve_03 {
+        fill: none;
+        stroke-width: 1.5px;
+    } */
